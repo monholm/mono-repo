@@ -1,0 +1,6 @@
+{
+  "extends": "@monholm/tsconfig",
+  "compilerOptions": {
+    "noEmit": true
+  }
+}

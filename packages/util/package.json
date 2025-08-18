@@ -1,0 +1,25 @@
+{
+  "name": "@monholm/util",
+  "exports": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "check": "tsc",
+    "lint": "eslint .",
+    "format-check": "prettier . --check --cache-location=_unused",
+    "format": "prettier . --write --cache-location=_unused"
+  },
+  "devDependencies": {
+    "@monholm/eslint-config": "workspace:*",
+    "@monholm/prettier-config": "workspace:*",
+    "@monholm/tsconfig": "workspace:*",
+    "@types/node": "24.3.0",
+    "eslint": "9.33.0",
+    "prettier": "3.6.2",
+    "typescript": "5.9.2",
+    "typescript-eslint": "8.39.1"
+  }
+}
