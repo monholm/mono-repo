@@ -1,0 +1,21 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "check": {
+      "dependsOn": ["^build"]
+    },
+    "lint": {
+      "dependsOn": ["^build"]
+    },
+    "format-check": {
+      "dependsOn": ["@monholm/prettier-config#build"]
+    },
+    "format": {
+      "dependsOn": ["@monholm/prettier-config#build"]
+    }
+  }
+}
