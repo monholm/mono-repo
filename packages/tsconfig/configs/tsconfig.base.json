@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
     "checkJs": true,
+    "esModuleInterop": true,
     "exactOptionalPropertyTypes": true,
     "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,
     "noUncheckedSideEffectImports": true,
+    "skipLibCheck": true,
     "strict": true,
     "verbatimModuleSyntax": true
   }
