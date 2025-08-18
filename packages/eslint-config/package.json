@@ -1,5 +1,10 @@
 {
   "name": "@monholm/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monholm/mono-repo.git",
+    "directory": "packages/eslint-config"
+  },
   "exports": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "files": [

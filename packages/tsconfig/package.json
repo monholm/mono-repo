@@ -1,5 +1,10 @@
 {
   "name": "@monholm/tsconfig",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monholm/mono-repo.git",
+    "directory": "packages/tsconfig"
+  },
   "exports": "./configs/tsconfig.base.json",
   "files": [
     "configs/tsconfig.base.json"

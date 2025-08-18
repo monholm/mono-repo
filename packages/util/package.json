@@ -1,5 +1,10 @@
 {
   "name": "@monholm/util",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monholm/mono-repo.git",
+    "directory": "packages/util"
+  },
   "exports": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "files": [
