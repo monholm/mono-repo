@@ -82,5 +82,3 @@ await publish(
     provenance: true,
   }))
 );
-
-// trigger
