@@ -180,6 +180,58 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@monolease/changelog@npm:1.0.0-rc.0":
+  version: 1.0.0-rc.0
+  resolution: "@monolease/changelog@npm:1.0.0-rc.0"
+  dependencies:
+    "@monolease/core": "npm:1.0.0-rc.0"
+  checksum: 10c0/28d2b98419d4df485d2c7155e33e336582e58930801d248d38b019b76beaf147746f7db898b67770148007dd621836a0c790e8142a148363ee67f74cfc45a22c
+  languageName: node
+  linkType: hard
+
+"@monolease/core@npm:1.0.0-rc.0":
+  version: 1.0.0-rc.0
+  resolution: "@monolease/core@npm:1.0.0-rc.0"
+  dependencies:
+    "@monolease/util": "npm:1.0.0-rc.0"
+    semver: "npm:7.7.2"
+    tinyglobby: "npm:0.2.14"
+  checksum: 10c0/b34b0f35420ab9a4a6f09eefc28469f18b16221ba397244e4b9bb0572f399d5faccaa1dad77f87c35d93cf13c83a35faf7fdf40ab13b7dc194e90ca39f0f2b93
+  languageName: node
+  linkType: hard
+
+"@monolease/github@npm:1.0.0-rc.0":
+  version: 1.0.0-rc.0
+  resolution: "@monolease/github@npm:1.0.0-rc.0"
+  checksum: 10c0/15c1ae6e60f2e6770e7dfafdde8c92016f82648900f88a1675a4ac7c000df8d9af8cbff47c1afc190d8e0a02ffbb1b626210482efa39e269a86d16a88fe1acc8
+  languageName: node
+  linkType: hard
+
+"@monolease/npm-registry@npm:1.0.0-rc.0":
+  version: 1.0.0-rc.0
+  resolution: "@monolease/npm-registry@npm:1.0.0-rc.0"
+  dependencies:
+    "@monolease/util": "npm:1.0.0-rc.0"
+  checksum: 10c0/abb538b665166aaf896ef85bc306dbdccfccdc1a673ab897fbdfe8549cd2cac24be5bf1ba40ae3976205c878714656b59c113e887826a0a0e9a979a5bc881707
+  languageName: node
+  linkType: hard
+
+"@monolease/pkg-json-version@npm:1.0.0-rc.0":
+  version: 1.0.0-rc.0
+  resolution: "@monolease/pkg-json-version@npm:1.0.0-rc.0"
+  dependencies:
+    "@monolease/util": "npm:1.0.0-rc.0"
+  checksum: 10c0/4f7877420050758e4efac8388c1571d3bb7fd9f7ae0e43db155a4a0bcfc6b739b31ac6650d2be4f615f963746c825aaf3766194232096bb2b9be88f86fe40265
+  languageName: node
+  linkType: hard
+
+"@monolease/util@npm:1.0.0-rc.0":
+  version: 1.0.0-rc.0
+  resolution: "@monolease/util@npm:1.0.0-rc.0"
+  checksum: 10c0/9a5f150b4757099e85ddbb5076e02ad433cd8d292a670d755a354fe8f29d94d93fdc6c46cd5327caf23b6b6cfcfef310f641cf6d7bf913495722c66ba7db8943
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -685,6 +737,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fdir@npm:^6.4.4":
+  version: 6.5.0
+  resolution: "fdir@npm:6.5.0"
+  peerDependencies:
+    picomatch: ^3 || ^4
+  peerDependenciesMeta:
+    picomatch:
+      optional: true
+  checksum: 10c0/e345083c4306b3aed6cb8ec551e26c36bab5c511e99ea4576a16750ddc8d3240e63826cc624f5ae17ad4dc82e68a253213b60d556c11bfad064b7607847ed07f
+  languageName: node
+  linkType: hard
+
 "file-entry-cache@npm:^8.0.0":
   version: 8.0.0
   resolution: "file-entry-cache@npm:8.0.0"
@@ -936,6 +1000,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mono-repo@workspace:."
   dependencies:
+    "@monolease/changelog": "npm:1.0.0-rc.0"
+    "@monolease/core": "npm:1.0.0-rc.0"
+    "@monolease/github": "npm:1.0.0-rc.0"
+    "@monolease/npm-registry": "npm:1.0.0-rc.0"
+    "@monolease/pkg-json-version": "npm:1.0.0-rc.0"
     turbo: "npm:2.5.6"
   languageName: unknown
   linkType: soft
@@ -1016,6 +1085,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"picomatch@npm:^4.0.2":
+  version: 4.0.3
+  resolution: "picomatch@npm:4.0.3"
+  checksum: 10c0/9582c951e95eebee5434f59e426cddd228a7b97a0161a375aed4be244bd3fe8e3a31b846808ea14ef2c8a2527a6eeab7b3946a67d5979e81694654f939473ae2
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
@@ -1069,7 +1145,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.6.0":
+"semver@npm:7.7.2, semver@npm:^7.6.0":
   version: 7.7.2
   resolution: "semver@npm:7.7.2"
   bin:
@@ -1107,6 +1183,16 @@ __metadata:
   dependencies:
     has-flag: "npm:^4.0.0"
   checksum: 10c0/afb4c88521b8b136b5f5f95160c98dee7243dc79d5432db7efc27efb219385bbc7d9427398e43dd6cc730a0f87d5085ce1652af7efbe391327bc0a7d0f7fc124
+  languageName: node
+  linkType: hard
+
+"tinyglobby@npm:0.2.14":
+  version: 0.2.14
+  resolution: "tinyglobby@npm:0.2.14"
+  dependencies:
+    fdir: "npm:^6.4.4"
+    picomatch: "npm:^4.0.2"
+  checksum: 10c0/f789ed6c924287a9b7d3612056ed0cda67306cd2c80c249fd280cf1504742b12583a2089b61f4abbd24605f390809017240e250241f09938054c9b363e51c0a6
   languageName: node
   linkType: hard
 
