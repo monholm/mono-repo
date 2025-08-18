@@ -11,7 +11,8 @@
     "lint": "turbo lint",
     "format-check": "turbo format-check",
     "format": "turbo format",
-    "pr-check": "turbo check lint format-check"
+    "pr-check": "turbo check lint format-check",
+    "release": "yarn tsx scripts/release.ts"
   },
   "devDependencies": {
     "@monolease/changelog": "1.0.0-rc.0",
