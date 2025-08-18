@@ -1,0 +1,22 @@
+{
+  "name": "@monholm/prettier-config",
+  "exports": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "check": "tsc",
+    "format-check": "prettier . --check --cache-location=_unused",
+    "format": "prettier . --write --cache-location=_unused"
+  },
+  "peerDependencies": {
+    "prettier": "*"
+  },
+  "devDependencies": {
+    "@monholm/tsconfig": "workspace:*",
+    "prettier": "3.6.2",
+    "typescript": "5.9.2"
+  }
+}
