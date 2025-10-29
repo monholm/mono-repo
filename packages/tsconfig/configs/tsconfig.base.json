@@ -2,6 +2,7 @@
   "compilerOptions": {
     "checkJs": true,
     "esModuleInterop": true,
+    "erasableSyntaxOnly": true,
     "exactOptionalPropertyTypes": true,
     "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,
