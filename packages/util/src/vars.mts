@@ -11,4 +11,4 @@
  * **Note: The regexp doesn't ensure that the string decodes to anything meaningful.
  * It only checks that only valid Base64Url characters are present.
  */
-export const base64UrlRegExp = /^[a-zA-Z0-9_-]+$/;
+export const base64UrlRegExp = /^[a-zA-Z0-9_-]*$/;
