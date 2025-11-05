@@ -13,7 +13,7 @@ export function isObject(x: unknown): x is Record<PropertyKey, unknown> {
  */
 export function getObjectKeyByValue<T extends object>(
   object: T,
-  value: T[keyof T],
+  value: unknown,
 ): keyof T | undefined {
   for (const [key, val] of Object.entries(object)) {
     if (val === value) {
