@@ -35,18 +35,27 @@ importers:
 
   packages/eslint-config:
     devDependencies:
+      '@eslint/js':
+        specifier: 9.39.1
+        version: 9.39.1
       '@monholm/prettier-config':
         specifier: workspace:*
         version: link:../prettier-config
       '@monholm/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
+      eslint:
+        specifier: 9.39.1
+        version: 9.39.1
       prettier:
         specifier: 3.6.2
         version: 3.6.2
       typescript:
         specifier: 5.9.3
         version: 5.9.3
+      typescript-eslint:
+        specifier: 8.47.0
+        version: 8.47.0(eslint@9.39.1)(typescript@5.9.3)
 
   packages/prettier-config:
     devDependencies:

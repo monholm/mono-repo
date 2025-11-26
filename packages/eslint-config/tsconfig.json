@@ -1,1 +1,5 @@
-{"extends": "@monholm/tsconfig", "compilerOptions": {"noEmit": true}}
+{
+  "extends": "@monholm/tsconfig",
+  "exclude": ["dist"],
+  "compilerOptions": {"noEmit": true, "module": "nodenext"}
+}

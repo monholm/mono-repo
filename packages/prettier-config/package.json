@@ -5,8 +5,9 @@
     "url": "git+https://github.com/monholm/mono-repo.git",
     "directory": "packages/prettier-config"
   },
-  "exports": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
