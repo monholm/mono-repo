@@ -17,11 +17,11 @@
     "format": "prettier . --write --cache-location=_unused"
   },
   "peerDependencies": {
-    "prettier": "*"
+    "prettier": ">= 3.5.0"
   },
   "devDependencies": {
     "@monholm/tsconfig": "workspace:*",
     "prettier": "3.6.2",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   }
 }
