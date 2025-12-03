@@ -3,12 +3,6 @@ import {defineConfig} from 'eslint/config';
 
 export default defineConfig([
   eslintConfig,
-  {
-    languageOptions: {
-      parserOptions: {
-        projectService: true,
-      },
-    },
-  },
+  {languageOptions: {parserOptions: {projectService: true}}},
   {ignores: ['dist']},
 ]);

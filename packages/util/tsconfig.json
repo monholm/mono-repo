@@ -1,6 +1,5 @@
 {
   "extends": "@monholm/tsconfig",
-  "compilerOptions": {
-    "noEmit": true
-  }
+  "exclude": ["dist"],
+  "compilerOptions": {"noEmit": true, "module": "node18"}
 }

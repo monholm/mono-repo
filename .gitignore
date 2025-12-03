@@ -1,15 +1,8 @@
 # macOS
 .DS_Store
 
-# Yarn berry
+# pnpm
 node_modules
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
 
 # Turborepo
 .turbo
