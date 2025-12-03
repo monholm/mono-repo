@@ -9,20 +9,20 @@ importers:
   .:
     devDependencies:
       '@monolease/changelog':
-        specifier: 1.0.0-rc.0
-        version: 1.0.0-rc.0
+        specifier: 1.0.0-rc.3
+        version: 1.0.0-rc.3
       '@monolease/core':
-        specifier: 1.0.0-rc.0
-        version: 1.0.0-rc.0
+        specifier: 1.0.0-rc.3
+        version: 1.0.0-rc.3
       '@monolease/github':
-        specifier: 1.0.0-rc.0
-        version: 1.0.0-rc.0
+        specifier: 1.0.0-rc.2
+        version: 1.0.0-rc.2
       '@monolease/npm-registry':
-        specifier: 1.0.0-rc.0
-        version: 1.0.0-rc.0
+        specifier: 1.0.0-rc.2
+        version: 1.0.0-rc.2
       '@monolease/pkg-json-version':
-        specifier: 1.0.0-rc.0
-        version: 1.0.0-rc.0
+        specifier: 1.0.0-rc.2
+        version: 1.0.0-rc.2
       '@types/node':
         specifier: 24.10.1
         version: 24.10.1
@@ -310,23 +310,23 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@monolease/changelog@1.0.0-rc.0':
-    resolution: {integrity: sha512-lyvWVaDPLcV9SC3FBa4MCsep9ZPXt4wcT0zCsKL9h1uUeS0/JBAt0HuQas0jhsIWd4FiQQ5C1YUVhIkFSCquRg==}
+  '@monolease/changelog@1.0.0-rc.3':
+    resolution: {integrity: sha512-sz1+B+MLdtmZ4F/cJ0ZbctNjlvANJLn+Su9+KcqrH7L66g2SpuGR8nuawBJ2Po0yNhR/g8VwSAoJLhtaDLnJ8w==}
 
-  '@monolease/core@1.0.0-rc.0':
-    resolution: {integrity: sha512-nZ5vb++Pc/3vNP+SQ7meJiADUaCFhmRFL0r1GDyMBNfvkoC4imB307y79fi1zBa2ZLCkmwVCG0kzPgzSopeuKQ==}
+  '@monolease/core@1.0.0-rc.3':
+    resolution: {integrity: sha512-wDlHVNrf+4zTcd3awTxAZrU+g+H58+czSmf+G6/cIlIWYM/9BB7iDygRp44OJvWGsBRk6KEnJNAfC7s07PWBfA==}
 
-  '@monolease/github@1.0.0-rc.0':
-    resolution: {integrity: sha512-tqXP1xZoPTfKyRodr51wcXopjTUtgXoNSTlZMHeLQYMOG4ethmwchH2/PFFGO9PnBel75kNY0KWt9zqHc5/+mg==}
+  '@monolease/github@1.0.0-rc.2':
+    resolution: {integrity: sha512-KihUAeSV3hD9ALU8A5qD57WpSE0M+pqwrNi9Eg5x79Hxidfdkwjp+qT+IYZHCj4ySDoBjJeEfIdhlpcU496C8w==}
 
-  '@monolease/npm-registry@1.0.0-rc.0':
-    resolution: {integrity: sha512-6IpJYUK+5E06AQaVZwG7S7JZE6bTyasjn9KI/veXsWRbtaBDxy2dzpst6/Ty/aaKLOtaCKuppIuPrKC17XE+Aw==}
+  '@monolease/npm-registry@1.0.0-rc.2':
+    resolution: {integrity: sha512-izfY2pYbCZzyqI/cAcZbd0qt3bKb9T9GLmDzJ+Z5Lm5A4FxmV5p6mlTkc94YLgU8yy5uQhMk2EGkdXjmMCdL5w==}
 
-  '@monolease/pkg-json-version@1.0.0-rc.0':
-    resolution: {integrity: sha512-JzUHmBVvhs9zKfBV3jSYj/pw2suWKr8K+MGxj9r8gFDSZv/1usG1KXsJVrHtH6fcrMqUQVlgBgMJOClHmYkAHA==}
+  '@monolease/pkg-json-version@1.0.0-rc.2':
+    resolution: {integrity: sha512-tWvhG3T+a1fLdeOKGqSeyfVS0m5D5lWfkWqo7hTbBflKDih83xHgjA1WUPHL2oZAWevSW3gQdCfBWXTef0lHQg==}
 
-  '@monolease/util@1.0.0-rc.0':
-    resolution: {integrity: sha512-ygyNUEHoYrDXQ8JBDbKEJtxrKgdCM+sDj51xVZ37d9Kzk21U+RTP3vnBu6zA7KlZD0s9cZ1xJ72zb1WrH27SaA==}
+  '@monolease/util@1.0.0-rc.2':
+    resolution: {integrity: sha512-kuqQudFNSXaCKiT2Y/3eRhwG4BZTrjTGxGSsq+JQqyn2VFMSnmJjcHhpIrkwiK5fut84Tm/ERt0vfyZ1xYFfUA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -848,6 +848,11 @@ packages:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
 
+  yaml@2.8.1:
+    resolution: {integrity: sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==}
+    engines: {node: '>= 14.6'}
+    hasBin: true
+
   yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
@@ -989,27 +994,28 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@monolease/changelog@1.0.0-rc.0':
+  '@monolease/changelog@1.0.0-rc.3':
     dependencies:
-      '@monolease/core': 1.0.0-rc.0
+      '@monolease/core': 1.0.0-rc.3
 
-  '@monolease/core@1.0.0-rc.0':
+  '@monolease/core@1.0.0-rc.3':
     dependencies:
-      '@monolease/util': 1.0.0-rc.0
+      '@monolease/util': 1.0.0-rc.2
       semver: 7.7.2
       tinyglobby: 0.2.14
+      yaml: 2.8.1
 
-  '@monolease/github@1.0.0-rc.0': {}
+  '@monolease/github@1.0.0-rc.2': {}
 
-  '@monolease/npm-registry@1.0.0-rc.0':
+  '@monolease/npm-registry@1.0.0-rc.2':
     dependencies:
-      '@monolease/util': 1.0.0-rc.0
+      '@monolease/util': 1.0.0-rc.2
 
-  '@monolease/pkg-json-version@1.0.0-rc.0':
+  '@monolease/pkg-json-version@1.0.0-rc.2':
     dependencies:
-      '@monolease/util': 1.0.0-rc.0
+      '@monolease/util': 1.0.0-rc.2
 
-  '@monolease/util@1.0.0-rc.0': {}
+  '@monolease/util@1.0.0-rc.2': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -1548,5 +1554,7 @@ snapshots:
       isexe: 2.0.0
 
   word-wrap@1.2.5: {}
+
+  yaml@2.8.1: {}
 
   yocto-queue@0.1.0: {}
