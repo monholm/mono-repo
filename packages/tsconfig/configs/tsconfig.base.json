@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
+    "allowUnreachableCode": false,
     "checkJs": true,
-    "esModuleInterop": true,
     "erasableSyntaxOnly": true,
+    "esModuleInterop": true,
     "exactOptionalPropertyTypes": true,
     "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,
