@@ -9,7 +9,7 @@
       "dependsOn": ["^build"]
     },
     "lint": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["@monholm/eslint-config#build", "^build"]
     },
     "format-check": {
       "dependsOn": ["@monholm/prettier-config#build"]
