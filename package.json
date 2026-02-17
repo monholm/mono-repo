@@ -10,7 +10,7 @@
     "format-check": "turbo format-check",
     "format": "turbo format",
     "pr-check": "turbo check lint format-check",
-    "release": "pnpm tsx scripts/release.ts"
+    "release": "node scripts/release.ts"
   },
   "devDependencies": {
     "@monolease/changelog": "1.0.0-rc.3",
@@ -18,8 +18,7 @@
     "@monolease/github": "1.0.0-rc.2",
     "@monolease/npm-registry": "1.0.0-rc.2",
     "@monolease/pkg-json-version": "1.0.0-rc.2",
-    "@types/node": "24.10.1",
-    "tsx": "4.20.6",
-    "turbo": "2.6.1"
+    "@types/node": "24.10.13",
+    "turbo": "2.8.4"
   }
 }
