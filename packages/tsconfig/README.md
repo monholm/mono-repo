@@ -1,5 +1,17 @@
 # @monholm/tsconfig
 
-A strict TypeScript configuration base.
+## Getting Started
 
-Expected to be used alongside eslint/typescript-eslint, and as such, config options that aren't type-related and are covered by the recommended eslint/typescript-eslint rules, are left disabled/unconfigured.
+### Installation
+
+```bash
+pnpm add -D @monholm/tsconfig
+```
+
+### Usage
+
+**`tsconfig.json`**
+
+```json
+{ "extends": "@monholm/tsconfig" }
+```
