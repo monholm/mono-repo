@@ -1,5 +1,8 @@
 {
-  "extends": "@monholm/tsconfig",
+  "extends": [
+    "@monholm/tsconfig",
+    "../../sharedTsConfigs/tsconfig.lib.base.json"
+  ],
   "exclude": ["dist"],
-  "compilerOptions": {"noEmit": true, "module": "nodenext"}
+  "compilerOptions": {"noEmit": true}
 }

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "extends": ["//"],
+  // We import from the dist folder of the package itself, so we need to build it before checking it.
+  "tasks": {"check": {"dependsOn": ["build", "^build"]}},
+}

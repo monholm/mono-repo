@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
     "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
     "checkJs": true,
     "erasableSyntaxOnly": true,
     "esModuleInterop": true,
     "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
+    "noImplicitReturns": true,
     "noUncheckedIndexedAccess": true,
     "noUncheckedSideEffectImports": true,
     "skipLibCheck": true,

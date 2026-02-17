@@ -5,9 +5,9 @@
     "url": "git+https://github.com/monholm/mono-repo.git",
     "directory": "packages/tsconfig"
   },
-  "exports": "./configs/tsconfig.base.json",
+  "exports": "./tsconfig.json",
   "files": [
-    "configs/tsconfig.base.json"
+    "tsconfig.json"
   ],
   "peerDependencies": {
     "typescript": ">= 5.8.0"
