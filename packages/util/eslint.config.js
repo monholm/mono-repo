@@ -1,8 +1,8 @@
-import eslintConfig from '@monholm/eslint-config';
+import {baseConfig} from '@monholm/eslint-config';
 import {defineConfig} from 'eslint/config';
 
 export default defineConfig([
-  eslintConfig,
+  baseConfig,
   {languageOptions: {parserOptions: {projectService: true}}},
   {ignores: ['dist']},
 ]);

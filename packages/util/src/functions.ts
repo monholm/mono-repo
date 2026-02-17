@@ -17,6 +17,7 @@ export function getObjectKeyByValue<T extends object>(
 ): keyof T | undefined {
   for (const [key, val] of Object.entries(object)) {
     if (val === value) {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-type-assertion
       return key as keyof T;
     }
   }
@@ -28,6 +29,7 @@ export function getObjectKeyByValue<T extends object>(
  * Use this instead of Array.isArray to avoid the unsafe any type.
  */
 export function isArray(x: unknown): x is unknown[] {
+  // eslint-disable-next-line no-restricted-syntax -- The rule references this function.
   return Array.isArray(x);
 }
 
@@ -36,5 +38,6 @@ export function isArray(x: unknown): x is unknown[] {
  * Use this instead of JSON.parse to avoid the unsafe any type.
  */
 export function jsonParse(x: string): unknown {
+  // eslint-disable-next-line no-restricted-syntax -- The rule references this function.
   return JSON.parse(x);
 }
